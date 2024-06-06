@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="home.css">
+    <title>SMARTVIEW</title>
+</head>
+<body>
+    <div class="navbar">
+        <ul class="navbar-menu">
+            <li>
+                <div class="hamburger" id="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+                <div class="dropdown-content" id="dropdownContent">
+                    <a href="register.php">Register</a>
+                    <a href="login.php">Login</a>
+                </div>
+            </li>
+        </ul>
+    </div>
+    <div class="container">
+        <img src="home pic.jpg" alt="Gambar">
+        <div class="centered-text">Success is the sum of focused<br>steps in the right direction</div>
+    </div>
+
+    <footer>
+        <p>SMARTVIEW &copy; 2024</p>
+    </footer>
+
+    <script>
+        document.getElementById('hamburger').addEventListener('click', function() {
+            var dropdownContent = document.getElementById('dropdownContent');
+            if (dropdownContent.style.display === 'block') {
+                dropdownContent.style.display = 'none';
+            } else {
+                dropdownContent.style.display = 'block';
+            }
+        });
+    </script>
+</body>
+</html>
