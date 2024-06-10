@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Bootstrap demo</title>
+
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <!-- Bootstrap CSS End -->
+
+    <!-- My CSS -->
+    <link rel="stylesheet" href="landing.css" />
+    <!-- My CSS End -->
+  </head>
+  <body>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- Navbar -->
+    <nav
+      class="navbar fixed-top navbar-expand-lg bg-body shadow-sm p-3 mb-5 bg-white rounded"
+    >
+      <div class="container">
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link active fw-bold" aria-current="page" href="#Home"
+                >Home</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active fw-bold" href="#informasi">Informasi</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active fw-bold" href="#Contact">Kontak</a>
+            </li>
+
+          </ul>
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link active fw-bold" href="logout.php">Log out</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- Navbar End -->
+
+    <!-- Hero Section -->
+    <section class="hero" id="Home">
+      <main class="content">
+        <div class="row"><p class="zero-caption-2">
+          Selamat Datang
+        </p></div>
+        <div class="row">
+          <a class="zero-button" href="list.php">
+            <p class="zero-text-button">
+              Data Tugas Akhir
+            </p>
+          </a>
+        </div>
+        
+      </main>
+    </section>
+    <!-- Hero Section End -->
+
+    <!-- Informasi -->
+    <section id="informasi">
+      <div class="container">
+        <div class="row">
+          <p class="section-title">Informasi</p>
+        </div>
+        <div class="row">
+          <ol class="rounded-list">
+            <li><a href="">Jadwal sidang Tugas Akhir telah ditetapkan. Mohon untuk memeriksa jadwal yang telah disediakan oleh dosen pembimbing masing-masing dan mempersiapkan diri dengan baik.
+            </a></li>
+            <li><a href="">Mohon untuk melakukan pendaftaran sidang Tugas Akhir sesuai dengan prosedur yang telah ditetapkan oleh fakultas. Pastikan untuk melengkapi semua persyaratan yang dibutuhkan.</a></li>
+            <li><a href="">Berkomunikasilah secara teratur dengan dosen pembimbing Anda untuk mendapatkan arahan dan masukan yang diperlukan dalam menyelesaikan Tugas Akhir.</a></li>
+            <li><a href="">Jika Anda membutuhkan bantuan tambahan atau memiliki pertanyaan terkait Tugas Akhir, jangan ragu untuk menghubungi dosen pembimbing atau koordinator program studi.</a></li>
+            <li><a href="">Ingatlah untuk mematuhi semua deadline yang telah ditetapkan. Keterlambatan dalam pengumpulan Tugas Akhir dapat berdampak pada jadwal sidang dan proses kelulusan Anda.</a></li>
+          </ol>
+        </div>
+      </div>
+    </section>
+    <!-- Informasi End -->
+
+    <!-- Contact -->
+    <section id="Contact">
+      <div class="container">
+        <div class="row">
+          <p class="section-title">Kontak</p>
+          <h1 class="section-bold">Punya pertanyaan? Admin <br>akan membantu anda!</h1>
+          <a class="button" href="https://www.instagram.com/admin_smartview/?utm_source=ig_web_button_share_sheet">
+            <p class="text-button">
+              kontak Kami
+            </p>
+          </a>
+        </div>
+      </div>
+    </section>
+    <!-- Contact End -->
+
+    <!-- Footer -->
+    <footer>
+      <p>SMARTVIEW &copy; 2024</p>
+    </footer>
+  <!-- Footer End -->
+  </body>
+
+  
+</html>

@@ -1,0 +1,215 @@
+.nav-item {
+  font-size: 18px;
+}
+.navbar {
+  box-shadow: 1px 1px 5px 0px rgba(0, 0, 0, 0.49);
+  -webkit-box-shadow: 1px 1px 5px 0px rgba(0, 0, 0, 0.49);
+  -moz-box-shadow: 1px 1px 5px 0px rgba(0, 0, 0, 0.49);
+}
+
+.nav-item .nav-link:hover {
+  color: grey;
+  
+}
+
+/* Zero Section */
+.hero {
+  margin-top: 70px;
+  min-height: 100vh;
+  background-image: url(maarten-van-den-heuvel-8EzNkvLQosk-unsplash.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  box-shadow: 1px 1px 5px 0px rgba(0, 0, 0, 0.49);
+  -webkit-box-shadow: 1px 1px 5px 0px rgba(0, 0, 0, 0.49);
+  -moz-box-shadow: 1px 1px 5px 0px rgba(0, 0, 0, 0.49);
+
+}
+
+.zero-caption-2 {
+  padding-top: 290px;
+  font-size: 3em;
+  font-weight: 500;
+  text-align: center;
+  color: white;
+  
+}
+
+.zero-button {
+  margin-top: 10px;
+  background-color: white;
+  width: 210px;
+  height: 80px;
+  border-radius: 40px;
+  text-align: center;
+  text-decoration: none;
+  margin: 0;
+  position: absolute;
+  top: 500px;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+
+  box-shadow: 1px 1px 5px 0px rgba(0, 0, 0, 0.49);
+  -webkit-box-shadow: 1px 1px 5px 0px rgba(0, 0, 0, 0.49);
+  -moz-box-shadow: 1px 1px 5px 0px rgba(0, 0, 0, 0.49);
+}
+
+.zero-text-button {
+  padding-top: 13%;
+  color: black;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.zero-button:hover {
+  background-color: rgba(147, 149, 150, 0.3);
+}
+
+/* Zero Section End */
+
+/* UNIVERSAL TEXT CSS */
+.section-title {
+  font-weight: 650;
+}
+
+.section-bold {
+  font-weight: 550;
+  font-size: 35px;
+}
+
+.section-para {
+  padding-top: 30px;
+  color: gray;
+  font-size: 15px;
+  font-weight: 500;
+}
+
+.img-section {
+  box-shadow: 1px 1px 5px 0px rgba(0, 0, 0, 0.49);
+  -webkit-box-shadow: 1px 1px 5px 0px rgba(0, 0, 0, 0.49);
+  -moz-box-shadow: 1px 1px 5px 0px rgba(0, 0, 0, 0.49);
+}
+/* UNIVERSAL TEXT CSS END */
+
+
+/* Informasi */
+#informasi {
+  background-color: rgba(208, 215, 216, 0.2);
+  padding: 100px;
+  margin-top: 50px;
+
+  
+}
+
+ol {
+  counter-reset: li; /* Initiate a counter */
+  list-style: none; /* Remove default numbering */
+  list-style: decimal; /* Keep using default numbering for IE6/7 */
+  font: 15px 'trebuchet MS', 'lucida sans';
+  padding: 0;
+  margin-bottom: 4em;
+  text-shadow: 0 1px 0 rgba(255,255,255,.5);
+}
+
+ol ol {
+  margin: 0 0 0 2em; /* Add some left margin for inner lists */
+}
+
+.rounded-list a{
+  position: relative;
+  display: block;
+  padding: .4em .4em .4em 2em;
+  
+  margin: .5em 0;
+  background: #ddd;
+  color: #000000;
+  text-decoration: none;
+  border-radius: .3em;
+  transition: all .3s ease-out;
+}
+
+.rounded-list a:hover{
+  background: #eee;
+}
+
+.rounded-list a:hover:before{
+  transform: rotate(360deg);
+}
+
+.rounded-list a:before{
+  content: counter(li);
+  counter-increment: li;
+  position: absolute;
+  left: -1.3em;
+  top: 50%;
+  margin-top: -1.3em;
+  background: #0d0d0e;
+  height: 2em;
+  width: 2em;
+  line-height: 2em;
+  border: .3em solid #fff;
+  text-align: center;
+  font-weight: bold;
+  border-radius: 2em;
+  transition: all .3s ease-out;
+  color: white;
+}
+
+/* Informasi End */
+
+
+
+/* Contact */
+
+#Contact {
+  background-color: rgba(208, 215, 216, 0.2);
+  padding: 100px;
+  margin-top: 50px;
+
+ 
+}
+
+/* .contact-button-img {
+  margin-top: 33px;
+  width: 210px;
+  height: 80px;
+} */
+
+.button {
+  margin-top: 10px;
+  background-color: rgb(0, 0, 0);
+  width: 210px;
+  height: 80px;
+  border-radius: 40px;
+  text-align: center;
+  text-decoration: none;
+  
+  box-shadow: 1px 1px 5px 0px rgba(0, 0, 0, 0.49);
+  -webkit-box-shadow: 1px 1px 5px 0px rgba(0, 0, 0, 0.49);
+  -moz-box-shadow: 1px 1px 5px 0px rgba(0, 0, 0, 0.49);
+}
+
+.text-button {
+  padding-top: 13%;
+  color: white;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.button:hover {
+  background-color: rgba(78, 75, 75, 0.2);
+}
+
+/* Contact End */
+
+/* Footer */
+footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 10px;
+  font-family: Arial, sans-serif;
+}
+/* Footer End */
